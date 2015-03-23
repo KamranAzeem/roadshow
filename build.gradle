@@ -8,7 +8,7 @@ apply plugin: 'jetty'
 apply plugin: 'pmd'
 apply plugin: 'jdepend'
 apply plugin: 'com.bmuschko.cargo'
-ap plugin: 'com.bmuschko.cargo-base'
+apply plugin: 'com.bmuschko.cargo-base'
 
 // If you use this project for training and want to deploy to your Tomcat webapp
 // you must chose set a trainingUserName, which gives you your own deploy path on Tomcat
